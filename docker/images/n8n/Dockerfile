@@ -6,7 +6,7 @@ ARG TARGETPLATFORM
 # ==============================================================================
 # STAGE 1: System Dependencies & Base Setup
 # ==============================================================================
-FROM n8nio/base:${NODE_VERSION} AS system-deps
+FROM n8nio/n8n:latest
 
 # ==============================================================================
 # STAGE 2: Application Artifact Processor
